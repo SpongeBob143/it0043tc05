@@ -1,0 +1,24 @@
+    body {
+        background-image: url("Macbook Air aura desktop wallpaper 2K HD.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+        text-align:initial;
+        color: black;
+        font-family:'Courier New', Courier, monospace; 
+    }
+    .announcement-container {
+        background-color: rgb(250, 226, 230);
+        padding: 100px;
+        margin: auto;
+        max-width: 600px; 
+        border-radius: 20px;
+    }
+    p {
+        font-size:x-large;
+    }
+    .highlight {
+        color: #af2cfc; 
+        color:indigo;
+    }
