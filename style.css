@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    background-position: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 30%;
+    display: flex;
+
+}
+.flex-container{
+       max-width: 90vw;
+       margin: Irem auto;
+       text-align:center;
+       flex-wrap: wrap;
+       flex-flow: row wrap;
+       display: flex;
+
+
+}
+.box{
+    width: 10%;
+    height: 25px;
+    flex-direction:row;
+    flex-direction: column;
+}
