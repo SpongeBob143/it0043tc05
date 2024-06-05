@@ -46,11 +46,16 @@ img {
     height: 128px;
 }
 
-.details {
+.details, .name {
     text-align: center;
     font-weight:900;
     font-size: larger;
-    padding-bottom: 18px ;
+}
+
+.details, .race{
+    text-align: center;
+    padding-bottom: 18px;
+    font-weight: 450;
 }
 
 .desc{
