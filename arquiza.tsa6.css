@@ -133,14 +133,16 @@ iframe{
 
 .text-content {
     padding: 20px;
-    margin-right: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
     color:#fff31d;
     background-color:#6CC2D5;
     border-radius: 20px;
     box-shadow: 5px 5px 5px black;
     font-size: 1.2rem;
     position: absolute;
-    }
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     .navbar .nav-links {
