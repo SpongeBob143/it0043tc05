@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s all ease;
+}
+
+body {
+    background-image: url(BG.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6CC2D5;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .logo {
+    font-family: "Slackey", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff31d;
+}
+
+.navbar .nav-links a {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+    color: #073579;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-size: 170%;
+}
+
+#active{
+    color: #073579;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.container {
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.main-content, .sidebar {
+    padding: 20px;
+}
+
+.main-content {
+    flex: 2;
+    font-family: "Slackey", sans-serif;
+    
+}
+
+.sidebar {
+    flex: 1;
+}
+
+iframe{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    border: 5px #6CC2D5 solid;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.image{
+
+    padding: 5px;
+}
+
+.name{
+    font-family: "Slackey", sans-serif;
+    text-align: center;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+
+#spongebob{
+    color: #fff31d;  
+}
+
+#patrick{
+    color: #fe9285;  
+}
+
+#squidward{
+    color: #3f6456;  
+}
+
+#krabs{
+    color: #f94a45;  
+}
+
+#sandy{
+    color: #ffd389;  
+}
+
+#gary{
+    color: #8cd49e;  
+}
+
+.text-content {
+    padding: 20px;
+    margin-top: 20px;
+    color:#fff31d;
+    background-color:#6CC2D5;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
